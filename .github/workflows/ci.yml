@@ -4,9 +4,9 @@ name: CI
 # zh: Event 设置为 master 分支的 pull request 事件和 push 事件
 on:
     push:
-        branches: [master]
+        branches: [main]
     pull_request:
-        branches: [master]
+        branches: [main]
 
 permissions:
     contents: write
